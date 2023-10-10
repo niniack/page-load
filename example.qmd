@@ -2,6 +2,7 @@
 title: "Page-load Example"
 filters:
   - page-load
+# page-load-svg: "https://example.com/path/to/custom.svg"
 ---
 
 ## Heading

@@ -1,8 +1,8 @@
 if quarto.doc.is_format("html:js") then
 	-- fetch SVG URL from metadata, or use default if not provided
 	local svgURL
-	if quarto.doc.metadata and quarto.doc.metadata["svg-url"] then
-		svgURL = quarto.doc.metadata["svg-url"]
+	if quarto.doc.metadata and quarto.doc.metadata["page-load-svg"] then
+		svgURL = quarto.doc.metadata["page-load-svg"]
 	else
 		svgURL = "_extensions/page-load/resources/dual_ball.svg"
 	end
