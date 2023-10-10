@@ -1,0 +1,11 @@
+---
+title: "Page-load Example"
+filters:
+  - page-load
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+
